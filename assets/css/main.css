@@ -1,0 +1,219 @@
+/*!
+ * Start Bootstrap - Agency v5.2.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+:root {
+  --green: #70dda1;
+  --darkgreen: #66ca93;
+  
+  --pink: #e83e8c;
+  --orange: #fd7e14;
+  --indigo: #6610f2;
+
+  --grayteal:	#C4EDD8;
+  --grayblue: #CCD8F3;
+  --grayred: #EE9E8D;
+  --grayyellow: #F5FBB7;
+  --graypurple: #DAC8FB;
+  --graygreen: #C7FF9D;
+}
+
+body{
+ font-family: 'Karla';
+}
+
+a{
+  text-decoration: none !important; 
+}
+
+.bg-green{
+  background-color: var(--green) !important;
+}
+
+.bg-grayteal{
+  background-color: var(--grayteal) !important;
+}
+
+.bg-grayred{
+  background-color: var(--grayred) !important;
+}
+
+.bg-grayblue{
+  background-color: var(--grayblue) !important;
+}
+
+.bg-grayyellow{
+  background-color: var(--grayyellow) !important;
+}
+
+.bg-graypurple{
+  background-color: var(--graypurple) !important;
+}
+
+.bg-graygreen{
+  background-color: var(--graygreen) !important;
+}
+
+
+.text-green{
+  color: var(--green) !important;
+}
+
+a.text-green:hover{
+  color: var(--darkgreen) !important;
+}
+
+.btn-green{
+  background-color: var(--green) !important;
+}
+
+.btn-green:hover{
+  background-color: var(--darkgreen) !important;
+}
+
+.layanan{
+  width:300px; 
+  text-align: center;
+  display: inline-block;
+}
+
+.layanan .layanan-bg{
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+
+.maskapai{
+  width:150px; 
+  height: 200px;
+  text-align: center;
+  display: inline-block;
+}
+
+img.travel{
+  
+  max-width: 100px;
+}
+#sidebar {
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: -250px;
+  height: 100vh;
+  z-index: 999;  
+  transition: all 0.3s;
+  overflow-y: hidden;
+}
+
+#sidebar.active {
+  left: 0;
+}
+
+.footer {
+  padding: 25px 0;
+  text-align: center;
+}
+
+.footer span.copyright {
+  font-size: 90%;
+  line-height: 40px;
+  text-transform: none;
+}
+
+.footer ul.quicklinks {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+}
+
+ul.social-buttons {
+  margin-bottom: 0;
+}
+
+ul.social-buttons li a {
+  font-size: 20px;
+  line-height: 50px;
+  display: block;
+  width: 50px;
+  height: 50px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 100%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
+  background-color: var(--darkgreen);
+}
+
+
+a.detail[data-toggle="collapse"] {
+  text-decoration: none;
+  position: relative;
+  padding: 0.75rem 3.25rem 0.75rem 1.25rem;
+}
+
+a.detail[data-toggle="collapse"]::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 1.725rem;
+  line-height: 30px;
+  font-weight: 600;
+  font-size: 20px;
+  content: '\f078';
+  font-family: 'Font Awesome 5 Free';
+}
+
+a.detail[data-toggle="collapse"].collapsed {
+  border-radius: 0.35rem;
+}
+
+a.detail[data-toggle="collapse"].collapsed::after {
+  content: '\f077';
+}
+
+.slider-selection{
+  background: var(--green) !important;
+}
+
+.slider-handle {
+  background: var(--secondary) !important;
+  position: absolute;
+  top: 2px;
+  width: 15px;
+  height: 15px;
+}
+
+.card .card-header[data-toggle="collapse"] {
+  text-decoration: none;
+  position: relative;
+  padding: 0.75rem 3.25rem 0.75rem 1.25rem;
+}
+
+.card .card-header[data-toggle="collapse"]::after {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-right: 1.725rem;
+  line-height: 51px;
+  font-weight: 900;
+  content: '\f107';
+  font-family: 'Font Awesome 5 Free';
+  color: var(--success);
+}
+
+.card .card-header[data-toggle="collapse"].collapsed {
+  border-radius: 0.35rem;
+}
+
+.card .card-header[data-toggle="collapse"].collapsed::after {
+  content: '\f105';
+}
