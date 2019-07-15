@@ -1,0 +1,52 @@
+
+
+.filter .active {
+  border-color: rgb(79, 209, 90)!important;
+  border-radius: 0px;
+  background-color: rgb(235, 255, 239);
+  color: rgb(3, 172, 14)!important;
+  padding: 5px 0;
+}
+
+.filter .passive {
+  border-color: !important;
+  border-radius: 0px;
+  background-color: rgb(255, 255, 255);
+  color: rgba(49, 53, 59, 0.68)!important;
+  padding: 5px 0;
+}
+
+.active a {
+  display: block;
+  color: rgb(3, 172, 14)!important;
+}
+
+.passive a {
+  display: block;
+  color: rgba(49, 53, 59, 0.68)!important;
+}
+
+/* Pesanan detail pada collapse isi pesanan */
+.msg-from-buyer {
+  background-color: rgb(248, 148, 9);
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+}
+
+.msg-from-system {
+  background-color: rgb(153, 153, 153);
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+}
+
+.msg-from-selesai {
+  background-color: rgb(70, 136, 71);
+  padding: 4px 10px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 500;
+}

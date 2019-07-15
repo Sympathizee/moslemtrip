@@ -52,7 +52,7 @@
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <a class="dropdown-item" href="#" >Poin <span class="badge badge-warning float-right">100</span></a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Profil</a>
+                    <a class="dropdown-item" href="<?=base_url('profil')?>">Profil</a>
                     <a class="dropdown-item" href="#">Tagihan</a>
                     <a class="dropdown-item" href="#">Pembayaran</a>
                     <a class="dropdown-item" href="#">Pengaturan</a>
